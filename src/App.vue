@@ -1,8 +1,7 @@
 <template lang="pug">
 div
-    <router-view></router-view>
-    <router-link to="/Lista">Lista de personas</router-link>
-    
+    router-view
+    router-link(to="/Lista") Lista de personas
 </template>
 
 <script>

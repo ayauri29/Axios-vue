@@ -54,7 +54,6 @@ export default {
 					'per_page': this.cantidadResultados
 				}
 			}).then(response => {
-        console.log(response.data.data)
 				this.usuarios = response.data.data
 			}).catch(e => {
 				console.log(e)

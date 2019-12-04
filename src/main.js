@@ -4,6 +4,7 @@ import store from './store';
 import Router from 'vue-router';
 import Lista from './components/ListaUsuarios';
 import Home from './components/Home';
+import Add from './components/AgregarUsuario';
 
 Vue.use(Router)
 const router = new Router({
@@ -15,6 +16,10 @@ const router = new Router({
     {
       path: '/Lista',
       component: Lista
+    },
+    {
+      path: '/Add',
+      component: Add
     }
   ]
 })
